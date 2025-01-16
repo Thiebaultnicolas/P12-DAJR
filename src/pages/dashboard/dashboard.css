@@ -1,12 +1,22 @@
 .charts-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
 }
 
 .charts-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    display: flex;
     height: 263px;
+    gap: 16px;
+}
+
+.charts-stats > div {
+    flex-shrink: 0;
+    width: calc(33% - 8px);
+}
+
+@media screen and (min-width: 1280px) {
+    .charts-container{
+        grid-template-columns: 3fr 1fr;
+    }
 }

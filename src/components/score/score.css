@@ -6,8 +6,9 @@
   background-color: #f9f9f9;
   border-radius: 10px;
   padding: 20px;
-
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 263px;
+  box-sizing: border-box;
 }
 
 .score-title {
@@ -15,14 +16,6 @@
   color: #20253a; /* Couleur du titre */
   margin-bottom: 10px;
   margin-right: auto;
-}
-
-.score-text {
-  position: absolute;
-  top: 56.5%; /* Centré verticalement */
-  left: 61.5%; /* Centré horizontalement */
-  transform: translate(-50%, -50%); /* Ajuste la position */
-  text-align: center;
 }
 
 .score-percentage {

@@ -1,7 +1,20 @@
 .average-session-container {
     background: #FF0000;
-    border-radius: 4px;
-    width: 100%;
+    border-radius: 4px;  
+    height: 263px;
+    box-sizing: border-box;    
+    position: relative;
+}
+
+.average-session-title {
+    color: white;
+    opacity: .5;
+    margin: 0;
+    width: 170px;
+    font-size: 15px;
+    position: absolute;
+    top: 29px;
+    left: 34px;
 }
 
 .custom-tooltip {

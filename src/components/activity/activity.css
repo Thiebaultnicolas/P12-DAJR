@@ -7,6 +7,11 @@
   height: 320px;
 }
 
+.activity-container h3 {
+  margin: 0;
+  font-size: 12px;
+}
+
 .activity-title {
   font-size: 16px;
   font-weight: 500;
@@ -21,4 +26,45 @@
   border-radius: 5px;
   font-size: 12px;
   text-align: center;
+}
+
+.legend {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: -32px;
+}
+
+.legend .kilogram{
+  color: #74798C;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.legend .calories{
+  color: #74798C;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.legend-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.kilogram .legend-icon {
+  background-color: black;
+  margin-right: 6px;
+}
+
+.calories .legend-icon {
+  background-color: red;
+  margin-right: 10px;
 }

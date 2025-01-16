@@ -9,8 +9,6 @@ const Score = ({data: d}) => {
       { name: 'Reste', value: (1 - d.todayScore) * 100 }, // Partie grise
     ];
 
-    console.log(data, d)
-
     const COLORS = ['#FF0101', '#E8E8E8']; // Couleurs : rouge et gris
 
     const renderCustomizedLabel = () => {

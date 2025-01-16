@@ -30,23 +30,19 @@ class API {
 
 class APIFetch {
     async getUser(id){        
-        const resp = await fetch(`http://localhost:3000/user/${id}`)
-        return resp.json()
+        return fetch(`http://localhost:3000/user/${id}`)
     }
 
     async getAverageSessions(id){
-        const resp = await fetch(`http://localhost:3000/user/${id}/average-sessions`)
-        return resp.json()
+       return fetch(`http://localhost:3000/user/${id}/average-sessions`)
     }
 
     async getPerformance(id){
-        const resp = await fetch(`http://localhost:3000/user/${id}/performance`)
-        return resp.json()
+       return fetch(`http://localhost:3000/user/${id}/performance`)
     }
 
     async getActivity(id){
-        const resp = await fetch(`http://localhost:3000/user/${id}/activity`)
-        return resp.json()
+        return fetch(`http://localhost:3000/user/${id}/activity`)
     }
 }
 
